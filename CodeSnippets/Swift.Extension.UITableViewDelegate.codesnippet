@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Swift.Class.Structure</string>
+	<string>Swift.Extension.UITableViewDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class &lt;#ClassName#&gt; {
-    &lt;#code#&gt;
+	<string>extension &lt;#name#&gt;: UITableViewDelegate {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        &lt;#code#&gt;
+    }
+
+    public func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        &lt;#code#&gt;
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>341A144A-6308-4350-B071-476DF0CA2343</string>
+	<string>4E5F63F9-DD6F-42EE-9BC5-B7C144D5CB84</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Class Creation</string>
+	<string>Swift Extension UITableViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
